@@ -30,7 +30,7 @@ twitter_username: pierre_arnaud
 github_username:  pihuvey87
 
 # Build settings
-theme: no-style-please
+theme: jekyll-theme-no-style-please
 plugins:
   - jekyll-feed
 
