@@ -36,6 +36,18 @@ remote_theme: no-style-please
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
